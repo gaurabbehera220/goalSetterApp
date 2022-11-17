@@ -1,5 +1,5 @@
 const express = require('express');
-const dotenv = require('dotenv').config({ path: '/home/gaurab/Desktop/MERN_PROJECT_FOLDER_001/mern_goals_project/Goal_setter_app_01/.env'});
+const dotenv = require('dotenv').config({ path: '/home/gaurab/Desktop/MERN_PROJECT_FOLDER_001/mern_goals_project/Goal_setter_app_01/backend/.env'});
 const colors = require('colors');
 const port = process.env.PORT || 5000;
 const {errorHandler} = require('./middleware/errorMiddleware')
